@@ -18,7 +18,8 @@ public class ArithmeticExceptionDemo {
             int result = x / y;
             System.out.println(result);
         } catch (ArithmeticException e) {
-            System.out.println("Hey user! you can't input 0 as a input");
+            e.printStackTrace();
+//            System.out.println("Hey user! you can't input 0 as a input");
         }
 
         System.out.println("End Main");
