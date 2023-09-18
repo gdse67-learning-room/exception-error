@@ -1,4 +1,4 @@
-package throwss;
+package thrrows;
 
 /*
     @author DanujaV
